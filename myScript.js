@@ -1,43 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-    <title>Tree Example</title>
-
-    <style>
-	
-	.node {
-		cursor: pointer;
-	}
-
-	.node circle {
-	  fill: #fff;
-	  stroke: steelblue;
-	  stroke-width: 3px;
-	}
-
-	.node text {
-	  font: 12px sans-serif;
-	}
-
-	.link {
-	  fill: none;
-	  stroke: #ccc;
-	  stroke-width: 2px;
-	}
-	
-    </style>
-
-  </head>
-
-  <body>
-
-<!-- load the d3.js library -->	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-	
-<script>
-
 
 var treeData = {
    "checksum": "31d05d25687af693376d5ad92458e73a",
@@ -27322,7 +27282,3 @@ function click(d) {
   update(d);
 }
 
-</script>
-	
-  </body>
-</html>
